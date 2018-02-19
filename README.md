@@ -19,6 +19,7 @@ However for entry of additional meta-data, the app would also offer (below the _
 _“Get My Coordinates”_ checks if the current location is within 3 meters of a known one.
 If so it fills the meta fields with its data (and overwrites the existing record on save).
 
+```
 CREATE TABLE `location` (
   `location_id` int(11) NOT NULL,
   `location_type` tinyint(4) NOT NULL,
@@ -55,4 +56,4 @@ CREATE TABLE `territories` (
   `moddate` date NOT NULL,
   PRIMARY KEY (`territory_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
+```
