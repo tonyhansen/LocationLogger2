@@ -2,7 +2,7 @@
 
 ## PHP App to gather, edit GPS coordinates and meta-data on houses/apartments
 
-We have special needs that Google maps does not satisfy. This project is about logging data points and associated meta-data. We have already had this done as an app (which we will use later) but right now need the simplicity of a pure PHP/Javascript/MySQL page (not an app). We will use a blue-tooth, smartphone connected, GPS device to get accurate positions (approximate data from a phone GPS is enough to test).
+We have special needs that Google maps does not satisfy. This project is about logging data points and associated meta-data. We have already had this done as an app using Loopback, Angular, Cordoba (which we will use later) but right now need the simplicity of a pure PHP/Javascript/MySQL page (not an app). We will use a blue-tooth, smartphone connected, GPS device to get accurate positions (approximate data from a phone GPS is enough to test).
 
 One screen is needed with _“Get My Coordinates”_ and _“Save”_ buttons. Pressing _Save_ creates a record in the location table (you do not need to create screens to administer the streets, blocks or territories tables). This app thus logs a series of coordinates by simply walking along and pressing the _Get_ and _Save_ buttons at the front gate of each dwelling (with no other meta-data specified).
 
